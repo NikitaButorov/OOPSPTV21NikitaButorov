@@ -27,6 +27,27 @@ public class OOPProba {
         authors[0]=author1;
         book1.setAuthors(authors);
         System.out.println(book1.toString());
+        Authors author2 = new Authors();
+        author2.setFirstname("Ilja");
+        author2.setLastname("Ilv");
+        Authors author3 = new Authors();
+        author3.setFirstname("Jevgeny");
+        author3.setLastname("Petrov");
+        Book book2 = new Book();
+        Book book3= new Book();
+        Authors[] authors2 = new Authors[2];
+        Authors[] authors3= new Authors[3];
+        authors[1]=author2;
+        authors2[2]=author3;
+        book2.setAuthors(authors2);
+        book2.setCaption("Zolotoy Telenok");
+        System.out.println(book2.toString());
+        book3.setAuthors(authors3);
+        book3.setCaption("Zolotoy Telenok");
+        System.out.println(book3.toString());
+        
+        
+        
         
     }
     
